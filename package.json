@@ -1,0 +1,14 @@
+{
+  "name": "negociacoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile": "tsc"
+  },
+  "author": "Rafael Monteiro",
+  "license": "ISC"
+}
