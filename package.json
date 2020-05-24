@@ -8,13 +8,15 @@
   },
   "scripts": {
     "compile": "tsc",
-    "start": "tsc -w",
-    "server": "lite-server --baseDir=app"
+    "watch": "tsc -w",
+    "server": "lite-server --baseDir=app",
+    "start": "concurrently \"npm run watch\" \"npm run server\""
   },
   "author": "Rafael Monteiro",
   "license": "ISC",
   "devDependencies": {
     "@types/jquery": "^2.0.42",
+    "concurrently": "^3.4.0",
     "lite-server": "^2.5.4",
     "typescript": "^2.3.2"
   }
